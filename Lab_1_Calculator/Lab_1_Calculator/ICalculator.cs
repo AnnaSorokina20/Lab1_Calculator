@@ -8,5 +8,6 @@ namespace Lab_1_Calculator
 {
     public interface ICalculator
     {
+        double EvaluateExpression(string expression);
     }
 }
