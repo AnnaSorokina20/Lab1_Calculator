@@ -10,6 +10,7 @@ namespace Lab_1_Calculator
     {
         static void Main()
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
             ICalculator calculator = new Calculator();
 
             Console.Write("Введіть вираз (наприклад, 1 + 5 * 8): ");
